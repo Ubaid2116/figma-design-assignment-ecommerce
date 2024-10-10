@@ -5,3 +5,13 @@
 .wrapper {
   @apply max-w-screen-2xl px-4 mx-auto
 }
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
